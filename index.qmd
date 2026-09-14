@@ -1,7 +1,7 @@
 ---
 title: '<img src="images/EUI_logo.png" class="slide-logo"></br>Research Data'
-subtitle: 'Resources, Tools and  Services for the EUI Community </br>14 September 2026 - EUI September Programme'
-author: 'strong>Simone Sacchi, Ph.D.</strong></br>Research data Librarian - EUI Library</br><a href=\"mailto:simone.sacchi@eui.eu\">simone.sacchi@eui.eu</a>'
+subtitle: '<strong>Resources, services, and support for the EUI Community</strong>'
+author: '<strong>Simone Sacchi, Ph.D.</strong></br>Research data Librarian - EUI Library</br><a href=\"mailto:simone.sacchi@eui.eu\">simone.sacchi@eui.eu</a>'
 title-slide-attributes:
   data-background-image: 'images/EUI-logo-acronym.svg'
   data-background-size: '20%'
@@ -18,26 +18,34 @@ format:
     preview-links: auto
     logo: images/EUI_logo.png
     css: styles.css
-    footer: 'Add title for the footer here'
+    footer: '14 September 2026 - EUI September Programme'
 ---
 
-## Welcome everyone!
+## Welcome to the EUI everyone!
 
 * Today's session is by design an overview, many details are intentionally skipped!
-* You'll get an introduction to all core resources, tool, and services we provide, to support the EUI community in working with research data
+* You'll get an introduction to all core data resources, tool, and services the EUI Library provides
 * Resources to go deep in each topic are available on the [EUI Library Research Data Guide](https://eui.libguides.com/research-data-guide/)
 
----
+## Foundational concepts <br/> (and terminology) {.center}
 
-## Research data {.smaller}
+```{css}
+.center h2 {
+  text-align: center;
+}
+```
 
-We take an inclusive notion of research data at the core of our work:
+## Research data: what are we talking about? {.smaller}
 
-> _Research data is all information intentionally collected, observed, generated or reused to validate research findings and substantiate scholarly claims_
+**At the core of our work, we take an inclusive notion of research data**
 
 <br/>
 
-Data can take a broad variety of forms, for example: tables, texts, images, audio/video recordings, archival material and other sources or physical evidence.
+> **_Research data is all information intentionally collected, observed, generated or reused to validate research findings and substantiate scholarly claims_**
+
+<br/>
+
+Data can in fact take a broad variety of forms, for example: tables, (structured and unstructured) texts, images, audio/video recordings, archival material and other sources or physical evidence.
 
 <br/>
 
@@ -47,47 +55,17 @@ Read more at [https://eui.libguides.com/research-data-guide/foundational-concept
 
 :::
 
-## Research Data Management {.smaller}
-
-> *Research Data Management (RDM) is an umbrella term covering how you organise, structure, store, and care for the digital information generated or used during a research project*
+## Research Data Lifecycle
 
 ::: columns
-::: {.column width="60%"}
--  Planning how your data will be managed
--  Documenting working practices
--  Handle data on a day-to-day basis
--  Making decisions on what happens to data in the long term
--  Considering whether everything may be reproducible
+::: {.column width="50%"}
+We organise our work around the idea that research data, much like research itself, goes through stages as identified in a research data lifecycle.
 :::
 
-::: {.column width="40%"}
-![](/images/rdm-storage.jpg){width=70%}
-:::
-:::
-
-::: {.callout-note appearance="minimal"}
-
-Read more at [https://eui.libguides.com/research-data-guide/foundational-concepts/rdm](https://eui.libguides.com/research-data-guide/foundational-concepts/rdm){data-preview-link="true"}
-
-:::
-
-## The FAIR Principles of research data management {.smaller}
-
-The FAIR guiding principles for scientific data management and stewardship [Wilkinson _et al._, 2016](https://doi.org/10.1038/sdata.2016.18) were developed as guidelines to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**eusability of digital assets; all of which support research reproducibility. The FAIR principles play an important role in making your data available to others (and yourself) for reuse.
-
-![](/images/1920px-FAIR_data_principles.jpg)
-
-## The FAIR principles explained {.smaller}
-
--   **F**indable: ensuring that your data can be found by both humans and machines, by using a globally unique and persistent identifier (such as a [DOI](https://www.doi.org/), kind of like an [ORCID](https://orcid.org/) for data) and standardised, machine-readable metadata.
--   **A**ccessible: once someone has found your data, they need to know how they can get access to them. This could include going through an authorisation and/or authentication process – i.e. it does not have to be open access to be FAIR (ethics always trump openness).
--   **I**nteroperable: the use of open formats ensures that your data can be integrated with other data and that they can be utilised by many applications or workflows for analysis, storage, and processing into the future, regardless of changes in software.
--   **R**eusable: ensuring that your data (and their related metadata) are openly licensed and well-described, indicating unambiguously how they may be reused without a need to contact the author(s) first.
-
-## Research Data Lifecycle {.smaller}
+::: {.column width="50%"}
 
 <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
-<svg class="sidebar_rdm" id="data-life-cycle" inkscape:version="1.3.2 (091e20e, 2023-11-25)" sodipodi:docname="EUI-RDM-lifecycle-color-FINAL-V2.svg" style="enable-background:new 0 0 250.9 251; width: 50%; margin:auto; float: right;" version="1.1" viewbox="0 0 250.9 251" x="0px" xml:space="preserve"
+<svg class="sidebar_rdm" id="data-life-cycle" inkscape:version="1.3.2 (091e20e, 2023-11-25)" sodipodi:docname="EUI-RDM-lifecycle-color-FINAL-V2.svg" style="enable-background:new 0 0 250.9 251; width: 90%; margin:auto; float: right;" version="1.1" viewbox="0 0 250.9 251" x="0px" xml:space="preserve"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -179,10 +157,48 @@ The FAIR guiding principles for scientific data management and stewardship [Wilk
     </g>
 </svg>
 
-We organise our work around the idea that research data, much like research itself, goes through stages as identified in a research data lifecycle.
+:::
+:::
+
+## Research Data Management {.smaller}
+
+> *Research Data Management (RDM) is an umbrella term covering how you organise, structure, store, and care for the digital information generated or used during a research project*
+
+::: columns
+::: {.column width="60%"}
+-  Planning how your data will be managed
+-  Documenting working practices
+-  Handle data on a day-to-day basis
+-  Making decisions on what happens to data in the long term
+-  Considering whether everything may be reproducible
+:::
+
+::: {.column width="40%"}
+![](/images/rdm-storage.jpg){width=70%}
+:::
+:::
+
+::: {.callout-note appearance="minimal"}
+
+Read more at [https://eui.libguides.com/research-data-guide/foundational-concepts/rdm](https://eui.libguides.com/research-data-guide/foundational-concepts/rdm){data-preview-link="true"}
+
+:::
+
+## The FAIR Principles of research data management {.smaller}
+
+The FAIR guiding principles for scientific data management and stewardship [Wilkinson _et al._, 2016](https://doi.org/10.1038/sdata.2016.18) were developed as guidelines to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**eusability of digital assets; all of which support research reproducibility. The FAIR principles play an important role in making your data available to others (and yourself) for reuse.
+
+![](/images/1920px-FAIR_data_principles.jpg)
+
+## The FAIR principles explained {.smaller}
+
+-   **FINDABLE: ensuring that your data can be found by both humans and machines**, by using a globally unique and persistent identifier (such as a [DOI](https://www.doi.org/), kind of like an [ORCID](https://orcid.org/) for data) and standardised, machine-readable metadata.
+-   **ACCESSIBLE: once someone has found your data, they need to know how they can get access to them**. This could include going through an authorisation and/or authentication process – i.e. it does not have to be open access to be FAIR (ethics always trump openness).
+-   **INTEROPERABLE: the use of open formats** ensures that your data can be integrated with other data and that they can be utilised by many applications or workflows for analysis, storage, and processing into the future, regardless of changes in software.
+-   **REUSABLE: ensuring that your data (and their related metadata) are openly licensed and well-described**, indicating unambiguously how they may be reused without a need to contact the author(s) first.
 
 
-## Planning for research data {.center}
+## Planning {.center}
 
 ```{css}
 .center h2 {
@@ -190,11 +206,11 @@ We organise our work around the idea that research data, much like research itse
 }
 ```
 
-## Planning for research data {.smaller}
+## Why planning {.smaller}
 
 **Planning is a fundamental to ensure that you will consider all conditions and best practices to effectively handle data throughout your research project. **
 
-What to consider:
+Aspects to address:
 
 -  How data is collected and generated
 -  How data is used, elaborated and organised
@@ -220,22 +236,6 @@ Preparing a DMP at the beginning of a research endeavour is an important step in
 Early-stage researchers (like EUI PhD Researchers) are strongly invited to learn how to prepare a DMP, as they will be required when applying for future project funding.
 :::
 
-## Data protection and ethics {.smaller}
-
-**Special terms and conditions apply to access and use of personal data, including micro-socioeconomic and qualitative data.**
-
-Data Protection at the EUI is governed by [President’s Decision No.10/2019](https://www.eui.eu/Documents/AboutEUI/Organization/DataProtection/PresDecision10-2019-DataProtection.pdf){data-preview-link="true"}, which was introduced following the adoption of the [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj){data-preview-link="true"}.
-
-The EUI adopts several policies and best practices to help scholars be informed of and comply with data protection and ethical use of data in research. Here are some pages where to find all relevant resources:
-
--   [Ethics and Integrity in Academic Research](https://www.eui.eu/en/services/academic-service/ethics-and-integrity-in-academic-research){data-preview-link="true"} (EUI Academic Service)
--   [EUI Ethics Committee](https://www.eui.eu/en/public/about/committees/ethics-committee){data-preview-link="true"}
--   [Procedure to request an Ethics Review](https://www.eui.eu/ServicesAndAdmin/DeanOfStudies/Procedure-to-request-an-Ethics-Review-by-the-EUI-Ethics-Committee){data-preview-link="true"}
-
-::: {.callout-note appearance="minimal"}
-Read more at [https://eui.libguides.com/research-data-guide/protection-ethics-copyright](https://eui.libguides.com/research-data-guide/protection-ethics-copyright){data-preview-link="true"}
-:::
-
 ## Discover, access, collect data {.center}
 
 ```{css}
@@ -244,7 +244,7 @@ Read more at [https://eui.libguides.com/research-data-guide/protection-ethics-co
 }
 ```
 
-## Discover, access, collect data {.smaller}
+## What to consider {.smaller}
 
 **Whether you are collecting original data or reusing existing data, the discovery, access and collection phase lays the foundation for the quality of both the data and its documentation.**
 
@@ -319,6 +319,39 @@ Some data providers request guarantees of extra security measures for access to,
 Read more at [https://eui.libguides.com/research-data-guide/discover-access-collect/secure-data-room](https://eui.libguides.com/research-data-guide/discover-access-collect/secure-data-room){data-preview-link="true"}
 :::
 
+## Collect new data
+
+Most of the training and support is provided within your Academic Units and working relationships with faculty and colleagues.
+
+There are however resources in the Library that can help you improve and refine your research methods and data collection skills (both for qualitative and quantitive data), for example:
+
+* The [SAGE Research Methods](https://biblio.eui.eu/view/action/uresolver.do?operation=resolveService&package_service_id=4261290060008406&institutionId=8406&customerId=8405&VE=true) platform
+* "Data collection" [resources](https://biblio.eui.eu/discovery/search?query=any,contains,data%20collection&tab=Everything&search_scope=MyInst_and_CI&vid=39EUI_INST:39EUI_INST&offset=0) in the EUI Library catalogue
+
+## Data protection and security {.center}
+
+```{css}
+.center h2 {
+  text-align: center;
+}
+```
+
+## Data protection and ethics {.smaller}
+
+**Special terms and conditions apply to access and use of personal data, including micro-socioeconomic and qualitative data.**
+
+Data Protection at the EUI is governed by [President’s Decision No.10/2019](https://www.eui.eu/Documents/AboutEUI/Organization/DataProtection/PresDecision10-2019-DataProtection.pdf){data-preview-link="true"}, which was introduced following the adoption of the [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj){data-preview-link="true"}.
+
+The EUI adopts several policies and best practices to help scholars be informed of and comply with data protection and ethical use of data in research. Here are some pages where to find all relevant resources:
+
+-   [Ethics and Integrity in Academic Research](https://www.eui.eu/en/services/academic-service/ethics-and-integrity-in-academic-research){data-preview-link="true"} (EUI Academic Service)
+-   [EUI Ethics Committee](https://www.eui.eu/en/public/about/committees/ethics-committee){data-preview-link="true"}
+-   [Procedure to request an Ethics Review](https://www.eui.eu/ServicesAndAdmin/DeanOfStudies/Procedure-to-request-an-Ethics-Review-by-the-EUI-Ethics-Committee){data-preview-link="true"}
+
+::: {.callout-note appearance="minimal"}
+Read more at [https://eui.libguides.com/research-data-guide/protection-ethics-copyright](https://eui.libguides.com/research-data-guide/protection-ethics-copyright){data-preview-link="true"}
+:::
+
 ## Copyright and terms of use {.smaller}
 
 **Access to, and use of, databases provided by the EUI Library are subject to contractual license agreements and database copyright terms.**
@@ -332,16 +365,53 @@ Read more at [https://eui.libguides.com/research-data-guide/discover-access-coll
 -  Users may not use licensed materials for commercial purposes.
 :::
 
+## Store your data (safely) {.smaller}
 
+**Your data is an important research asset, and its care starts with a proper storage strategy that reduces to minimal any accidental loss.**
 
-## Document, organise, store data {.center}
+::: columns
+::: {.column width="50%"}
+Never ever leave your data only on your personal computer:
+
+-   Personal hardware breaks or can be stolen
+-   Physical incidents happen
+-   Accidental deletion happens
+:::
+::: {.column width="50%"}
+
+![](/images/laptop.jpg){width=80%}
+:::
+:::
+
+::: {.callout-warning}
+If you are working with [personal and sensitive data](https://eui.libguides.com/research-data-guide/protection-ethics-copyright/processing-personal-data){data-preview-link="true"}, you may need extra layers of security!
+:::
+
+## Data storage solutions at the EUI {.smaller}
+
+The [EUI ICT Service](https://www.eui.eu/ServicesAndAdmin/ComputingService/Storage){data-preview-link="true"} provides state-of-the-art solutions to ensure that research data are safely stored and backed up:
+
+-  **Network areas storage (so called G:, H:, W: and S: drives)**
+-  **Microsoft OneDrive for Business**
+-  **Microsoft SharePoint**
+-  **Microsoft Teams**
+
+::: {.callout-tip}
+We strongly advise to adopt more than one solution at the same time, following [3-2-1 backup rule](https://www.eui.eu/ServicesAndAdmin/ComputingService/Storage/SafeguardingYourData)
+:::
+
+::: {.callout-note appearance="minimal"}
+Read more at [https://eui.libguides.com/research-data-guide/document-organise-store/data-storage](https://eui.libguides.com/research-data-guide/document-organise-store/data-storage){data-preview-link="true"}
+:::
+
+## Data documentation and organisation {.center}
 ```{css}
 .center h2 {
   text-align: center;
 }
 ```
 
-## Document your data {.smaller}
+## Document your data and workflows {.smaller}
 
 **Data documentation could be defined as the clear description of everything that a new “data user” or “your future-self” would need to know in order to find, understand, reproduce and reuse your data, independently.**
 
@@ -374,7 +444,7 @@ Clear and accurate documentation should include:
 
 :::
 ::: {.column width="50%"}
-**Bast practice:**
+**Best practice:**
 
 -   Create meaningful but brief names;
 -   Use file names to classify types of files;
@@ -406,6 +476,13 @@ The top folder should have a **README.txt** file describing the folder structure
 ::: {.callout-note appearance="minimal"}
 Read more at [https://eui.libguides.com/research-data-guide/document-organise-store/file-naming-folder-structure](https://eui.libguides.com/research-data-guide/document-organise-store/file-naming-folder-structure){data-preview-link="true"}
 :::
+
+## Track changes over time {.center}
+```{css}
+.center h2 {
+  text-align: center;
+}
+```
 
 ## Do you see yourself? {.smaller .center}
 
@@ -453,46 +530,7 @@ The most common tools to introduce version control in your research workflow are
 Read more at [https://eui.libguides.com/research-data-guide/document-organise-store/version-control](https://eui.libguides.com/research-data-guide/document-organise-store/version-control){data-preview-link="true"}
 :::
 
-## Store your data (safely) {.smaller}
-
-**Your data is an important research asset, and its care starts with a proper storage strategy that reduces to minimal any accidental loss.**
-
-::: columns
-::: {.column width="50%"}
-Never ever leave your data only on your personal computer:
-
--   Personal hardware breaks or can be stolen
--   Physical incidents happen
--   Accidental deletion happens
-:::
-::: {.column width="50%"}
-
-![](/images/laptop.jpg){width=80%}
-:::
-:::
-
-::: {.callout-warning}
-If you are working with [personal and sensitive data](https://eui.libguides.com/research-data-guide/protection-ethics-copyright/processing-personal-data){data-preview-link="true"}, you may need extra layers of security!
-:::
-
-## Data storage solutions at the EUI {.smaller}
-
-The [EUI ICT Service](https://www.eui.eu/ServicesAndAdmin/ComputingService/Storage){data-preview-link="true"} provides state-of-the-art solutions to ensure that research data are safely stored and backed up:
-
--  **Network areas storage (so called G:, H:, W: and S: drives)**
--  **Microsoft OneDrive for Business**
--  **Microsoft SharePoint**
--  **Microsoft Teams**
-
-::: {.callout-tip}
-We strongly advise to adopt more than one solution at the same time, following [3-2-1 backup rule](https://www.eui.eu/ServicesAndAdmin/ComputingService/Storage/SafeguardingYourData)
-:::
-
-::: {.callout-note appearance="minimal"}
-Read more at [https://eui.libguides.com/research-data-guide/document-organise-store/data-storage](https://eui.libguides.com/research-data-guide/document-organise-store/data-storage){data-preview-link="true"}
-:::
-
-## Process and analyse data {.center}
+## Data processing and analysis {.center}
 ```{css}
 .center h2 {
   text-align: center;
@@ -582,7 +620,7 @@ The EUI ICT Service provides a suite of applications dedicated to data analysis,
 Please note that common software like Microsoft Office and research-focused tools like MATLAB and Zotero are included, while specialised software may require departmental approval or external funding. 
 :::
 
-## Register, archive, share your data {.center}
+## Archive and share your data {.center}
 
 ```{css}
 .center h2 {
@@ -592,7 +630,7 @@ Please note that common software like Microsoft Office and research-focused tool
 
 ## Why it matters {.smaller}
 
-Making your dataset as open as possible and as closed as necessary, and in line with the [**FAIR Principles**](https://eui.libapps.com/research-data-guide/foundational-concepts/fair-principles){data-preview-link="true"}, carries a lot of benefits:
+Submitting your original datasets to a repository that complies with the [**FAIR Principles**](https://eui.libapps.com/research-data-guide/foundational-concepts/fair-principles){data-preview-link="true"}, carries a lot of benefits:
 
 -   **Increased impact:** Makes data easier to find and reuse, which can lead to new findings, increased citations, and broader recognition of your work.  
 -   **Improved reliability and reproducibility:** Allows other researchers to verify your results and helps ensure conclusions are built on a solid foundation.  
@@ -623,35 +661,24 @@ Read more at [https://eui.libguides.com/research-data-guide/register-archive-sha
 Three options: 1) **Register your data**; 2) **Register and archive your data**; 3) **Register, archive and share your data**
 :::
 
-## Register your data {.smaller}
+## Register and archive your datasets {.smaller}
 
 **Registering your dataset in a research repository ensures that your data can be found by both humans and machines by assigning a unique and persistent identifier (such as a DOI or HANDLE) and standardised, machine-readable metadata.**
 
-Criteria for registering your dataset:
+Criteria for registering and archiving your dataset:
 
 -  You are an active member of the EUI community
 -  Your dataset is the result of an original data collection OR its structure carries significant intellectual effort to make it an original work
+- If you used data under copyright, please abide to the original terms of use and obtain clearance
 
-**We recommend registration as a minimum step, but we strongly encourage you to also fully archive your data in Cadmus, as described in Option 2.**
+
 
 ::: {.callout-tip}
 If your dataset is already archived in a third-party trusted repository (e.g. Harvard Dataverse, Zenodo, etc.), you can register it in Cadmus and a link to the archived data will be added.
 :::
 
-## Register and archive {.smaller}
 
-**As you register your dataset in Cadmus (i.e. make a description of the dataset available online), you can also archive your data files, documentation files and related code. Cadmus will take care of their long-term preservation.**
-
-Criteria for archiving:
-
--   Your dataset is registered in Cadmus (prerequisite).
--   If you used data under copyright, please abide to the original terms of use and obtain clearance
-
-::: {.callout-important}
-While the description of your dataset will always be open, you can explicitly **select the access conditions** to your data file.
-:::
-
-## Register, archive and share {.smaller}
+## Share your dataset {.smaller}
 
 **Once your dataset are registered and archived in Cadmus, and your dataset qualifies (e.g. does not contain personal and sensitive data according to GDPR), you can make it open and enable its full reuse for the broadest academic community and society.**
 
@@ -696,9 +723,11 @@ We are here to help you succeed in working with data and making sure you leverag
 
 ![](/images/eui_view.png){fig-align="center"}
 
-## Your feedback matters! 
+## Attendance and feedback
 
-![](/images/QRCode%20for%20Research%20Data_%20resources%20tools%20and%20services%20for%20the%20EUI%20community%20(11_11_2025).png){fig-align="center"}
+![](/images/QRCode.png){fig-align="center"}
+
+<center>[https://forms.cloud.microsoft/e/ANsnNPgpTC](https://forms.cloud.microsoft/e/ANsnNPgpTC)</center>
 
 
 ## Any question? {.center background-image="/images/just_science_done_right.png" background-position="top right" background-repeat="no-repeat" background-size="15%"}
@@ -709,7 +738,9 @@ We are here to help you succeed in working with data and making sure you leverag
 ```
 
 ::: {style="text-align: center; margin-top: 1em"}
-Simone Sacchi
+Simone Sacchi, PhD
+
+Research Data Librarian, EUI Library
 
 [simone.sacchi@eui.eu](mailto:simone.sacchi@eui.eu)
 
@@ -723,7 +754,7 @@ Simone Sacchi
   text-align: center;
 ```
 ::: {style="text-align: center; margin-top: 1em"}
-Research Data Resources, Tools and Services for the EUI Community<br/>11 November 2025 - online
+Research Data Resources, Tools and Services for the EUI Community<br/>14 September 2026
 :::
 
 ## Next are the demo slides for working with Quarto/Revealjs {.center}
@@ -733,7 +764,7 @@ Research Data Resources, Tools and Services for the EUI Community<br/>11 Novembe
   text-align: center;
 ```
 ::: {style="text-align: center; margin-top: 1em"}
-Leaving them attached for reference, orignal code available at [https://github.com/quarto-dev](https://github.com/quarto-dev). All credit given!
+Leaving them attached for reference, original code available at [https://github.com/quarto-dev](https://github.com/quarto-dev). All credits given!
 
 :::
 

@@ -1,11 +1,11 @@
-# Slide deck template for the EUI Library training sessions
+# Slide deck for the session "Research Data: Resources, services, and support for the EUI Community" held on 14 September 2026
 
-These slides are prepared in the context of the EUI Library #researchskils training programme.
+These slides have been presented in the contect of the 2026 EUI September Programme for newcomers.
 
-* Web version: TBD
-* GitHub repo (this repository): 
+* Web version: [https://eui-library.github.io/2026-september-programme-introduction-data-services/](https://eui-library.github.io/2026-september-programme-introduction-data-services/)
+* GitHub repo (this repository): [https://github.com/EUI-Library/2026-september-programme-introduction-data-services](https://github.com/EUI-Library/2026-september-programme-introduction-data-services)
 
-Instructors: Simone Sacchi
+Instructor(s): Simone Sacchi
  
 Slides have been prepared adapting the demo slides for working with [Revealjs](https://revealjs.com/) in [Quarto](https://quarto.org/).
 

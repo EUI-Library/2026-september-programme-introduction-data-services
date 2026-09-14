@@ -19,6 +19,8 @@ format:
     logo: images/EUI_logo.png
     css: styles.css
     footer: '14 September 2026 - EUI September Programme</br> Slide repository: <a href="https://github.com/EUI-Library/2026-september-programme-introduction-data-services">https://github.com/EUI-Library/2026-september-programme-introduction-data-services</a>'
+execute:
+  freeze: auto
 ---
 
 ## Welcome to the EUI everyone!
